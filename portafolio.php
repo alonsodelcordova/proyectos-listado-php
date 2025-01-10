@@ -18,7 +18,7 @@ if($_GET){
 
     if($accion == 'eliminar'){
         
-        $sSql = "SELECT imagen FROM proyectos WHERE id = $id";
+        $sSql = "SELECT imagen, usuario_id FROM proyectos WHERE id = $id";
         $resultado = $conexion->ejecutarConsulta($sSql);
 
         if($resultado){
