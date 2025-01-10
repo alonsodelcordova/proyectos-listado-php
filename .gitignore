@@ -2,3 +2,11 @@
 build/
 
 
+static/img/portafolio/*.jpg
+static/img/portafolio/*.png
+static/img/portafolio/*.jpeg
+static/img/portafolio/*.gif
+static/img/portafolio/*.bmp
+static/img/portafolio/*.tiff
+static/img/portafolio/*.ico
+static/img/portafolio/*.svg

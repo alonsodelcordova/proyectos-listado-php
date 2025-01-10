@@ -25,7 +25,7 @@ $DIRS_IMAGENES = 'static/img/portafolio/';
                 <img src="<?php echo $DIRS_IMAGENES.$proyecto['imagen']; ?>" alt="Imagen del proyecto" class="card-img-top" >
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $proyecto['nombre']; ?></h5>
-                    <p class="card-text"><?php echo $proyecto['descripcion']; ?></p>
+                    <p class="card-text"><?php echo $proyecto['descripcion_corta']; ?></p>
                 </div>
             </div>
         </div>
